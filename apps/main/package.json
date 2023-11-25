@@ -1,0 +1,17 @@
+{
+    "name": "style3d",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "node ./internals/scripts/init-config.js && nuxi dev --port 3002",
+        "dev:interactive-config": "nuxi dev ./domains/configuration/interactive-config/ --port 9000",
+        "build": "node ./internals/scripts/init-config.js && pnpm clean && nuxi build && node ./internals/scripts/clean-map.js",
+        "generate": "nuxi generate",
+        "preview": "nuxi preview",
+        "start": "node .output/server/index.mjs",
+        "analyze": "nuxi analyze",
+        "info": "nuxi info",
+        "typecheck": "nuxi typecheck",
+        "clean": "rimraf .output"
+    }
+}

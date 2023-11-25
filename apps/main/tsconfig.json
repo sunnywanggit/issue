@@ -1,0 +1,17 @@
+{
+    // https://v3.nuxtjs.org/concepts/typescript
+    "extends": "./.nuxt/tsconfig.json",
+    "paths": {
+        "@pkgs/*": ["../../packages/*"],
+        "@domains/*": ["domains/*"],
+        "@tools/*": ["tools/*"],
+        "@locales/*": ["i18n/*"],
+        "@assets/*": ["assets/*"]
+    },
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "composite": true,
+        "typeRoots": ["./node_modules/@types/", "./typing.d.ts"]
+    }
+}

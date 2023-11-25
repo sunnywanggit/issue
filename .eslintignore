@@ -1,0 +1,9 @@
+\*\*/.output
+node_modules
+pnpm-lock.yaml
+coverage
+README.md
+lt-lint.js
+!.prettierrc.js
+iconfont.js
+internals/*

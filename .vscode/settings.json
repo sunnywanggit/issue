@@ -1,0 +1,54 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": false,
+        "**/dist": false,
+        "**/.vscode": false
+    },
+    "nuxt.isNuxtApp": false,
+    "eslint.format.enable": true,
+    "eslint.options": {
+        "extensions": [".js", ".ts", ".tsx", ".vue", ".html"]
+    },
+    "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
+    "stylelint.validate": ["css", "scss"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.stylelint.fixAll": true
+    },
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "fileheader.cursorMode": {
+        "param": "",
+        "returns": "",
+        "desc": ""
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.includeLanguages": {
+        "postcss": "css"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "vue.codeActions.enabled": false,
+    "cSpell.words": ["lsicon"]
+}

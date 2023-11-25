@@ -1,0 +1,8 @@
+**/.output
+node_modules
+pnpm-lock.yaml
+coverage
+README.md
+lt-lint.js
+.stylelintrc
+**/components.d.ts
